@@ -1,0 +1,175 @@
+:root{
+    --bookingcolor: #003b95;
+    --bluecolor: #006ce4;
+}
+
+nav{
+    background: transparent !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mainfirstdiv{
+    background-color: var(--bookingcolor);
+}
+
+.fa-question{
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 10px;
+    margin: auto;
+    align-content: center;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: auto;
+}
+
+.topbuttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.topbuttons button:hover{
+    background-color: #1a4fa0;
+}
+
+.topbuttons button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    padding: 11px 16px;
+}
+
+.selectedbutton{
+    border: solid 1px white !important;
+    background-color: #1a4fa0 !important;
+    box-sizing: border-box;
+}
+
+.topbuttons li{
+    list-style-type: none;
+}
+
+.topbuttons ul{
+    display: flex;
+    gap: 10px;
+}
+
+.secondtextdiv{
+    padding: 64px 5px 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+
+.secondtextdiv h1{
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.secondtextdiv p{
+    font-size: 25px;
+}
+
+.topnavbuttons{
+    background-color: white;
+    color: var(--bluecolor);
+    border: solid 1px var(--bluecolor);
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.ThirdSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #ffb700;
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 340px;
+    right: 350px;
+}
+
+.ThirdSection input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.FourthSearchButton button{
+    padding: 7px 24px;
+    background-color: var(--bluecolor);
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.FourthSearchButton button:hover{
+    background-color: var(--bookingcolor);
+}
+
+.firstinputbutton{
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.Secondinputbutton{
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.Thirdinputbutton{
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+nav a{
+    border-radius: 10px;
+}
+
+nav a:hover{
+    padding: 5px;
+    margin: -5px;
+    background-color: #1a4fa0;
+    border-radius: 10px;
+}
+
+nav i:hover{
+    padding: 5px;
+    margin: -5px;
+    background-color: #1a4fa0;
+    border-radius: 10px;
+}
+
+.topnavbuttons:hover{
+    background-color: hsl(213, 100%, 96%);
+}
